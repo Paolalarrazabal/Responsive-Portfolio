@@ -1,0 +1,344 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.page {
+    background-color: azure;
+    background-image: url("../images/hypnotize.png");
+}
+
+.top-top {
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+.top-section {
+    height: 100px;
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+    border-bottom: 2px solid #cccccc;
+}
+
+header {
+    padding: 30px 20px 0 20px;
+    background-color: #ce7bc0;
+    float: left;
+    height: 100px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #cccccc;
+    color: white;
+    
+}
+
+nav span {
+    float: right;
+    padding: 40px 0 10px 30px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    color: #777777;
+}
+
+a:link {
+    text-decoration: none;
+    color: #777777
+
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    
+
+}
+
+
+
+
+
+#Content-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ce7bc0;
+}
+
+.Content-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 30px;
+    margin-top: 10px;  
+
+}
+
+.form-wrap {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    clear: both;
+    overflow: hidden;
+    
+}
+
+span {
+    margin-bottom: 10px;
+}
+
+    
+
+
+
+textarea {
+    height: 200px;
+    width: 100%;
+}
+input {
+    width: 900px;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.button {
+    float: left;
+    width: 10%;
+    background-color: #ce7bc0;
+    color: white;
+    font-size: 16px;
+    border: none;
+    clear: both;
+    
+    
+}
+
+.button:hover {
+    background-color: whitesmoke;
+    color: #777777;
+    
+    
+    
+}
+.Content p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: #777777;
+    
+}
+.Content {
+    background-color: #ffffff;
+    
+    width: 960px;
+    margin: 40px auto 100px auto;
+    padding: 30px;
+    overflow: hidden;
+
+
+}
+img {
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    background-color: #cccccc;
+    height: 80px;
+    clear: both;
+    border-top: 8px solid #ce7bc0;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.gallery {
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: white;
+    grid-gap: 50px;
+    grid-auto-flow: column;
+    
+}
+
+
+.Skates {
+    background-image: url("../images/Skating\ .jpg");
+    width: 250px;
+    height: 200px;
+    background-size: contain;
+}
+.Skates p, .Space p, .Dogs p, .Cats p, .Sushi p {
+    background-color: #ce7bc0;
+    width: 250px;
+    height: 60px;
+    margin-top: 130px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+
+}
+.gallery p:hover {
+    opacity: .6;
+
+}
+.Space {
+    background-image: url("../images/Space\ .webp");
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+
+}
+
+
+
+.Dogs {
+    background-image: url("../images/Shiba.jpg");
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    
+}
+
+
+
+.Cats {
+    background-image: url("../images/coolcat.jpg");
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    
+ 
+}
+
+
+.Sushi {
+    background-image: url("../images/Sushi.jpg");
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 980px) {
+    .top-top {
+        width: 100%; 
+    }
+    .top-section {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .Content {
+        width: 600px;
+        margin: 40px 100px 500px 40px;
+        padding: 30px;
+        overflow: hidden;
+    }
+    input {
+        width: 540px;
+    }
+    .message-box {
+        width: 540px;
+    }
+    .footer {
+        background-color: #cccccc;
+        height: 80px;
+        clear: both;
+        border-top: 8px solid #ce7bc0;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .top-top {
+        width: 100%; 
+    }
+    .top-section {
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 750px;
+}
+    .Content {
+        width: 730px;
+        margin: 40px 20px 500px 20px;
+        padding: 30px;
+        overflow: hidden;
+
+}
+.footer {
+    display: none;
+   
+}
+
+}
+@media only screen and (max-width: 640px) {
+    .portfolio-footer {
+        display: none;
+    }
+    
+    .top-top {
+        width: 100%; 
+    }
+    .top-section {
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 640px;
+}
+.Content {
+    width: 600px;
+    margin: 40px 20px 60px 20px;
+    padding: 30px;
+    overflow: hidden;
+}
+nav span {
+    float: left;
+    padding: 10px 0 10px 30px;
+    height: 40px;
+    margin-left: 50px;
+}
+header {
+    padding: 0px 0px 0px 0px;
+    float: left;
+    height: 60px;
+    text-align: center;
+    width: 640px;
+    line-height: 2;
+    position: static;
+    
+
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: white;
+    grid-gap: 10px;
+    grid-auto-flow: column;
+    justify-content: stretch;
+    justify-items: center;
+}
+
+
+}
